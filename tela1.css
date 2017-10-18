@@ -1,0 +1,66 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #66bd48;
+}
+
+#login {
+	width: 40%;
+	height: auto;
+	border: 1px solid white;
+	padding: 25px;
+	background-color: white;
+	margin: 0 auto;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	color: #b1aeae;
+}
+
+#formulario {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 5%;
+}
+
+.formulario__input {
+	margin: 5px 20px;
+	padding: 20px 10px;
+	width: 100%;
+	border: none;
+	background-color: #f1f1f1;
+}
+
+input::placeholder {
+	color: #b1aeae;
+}
+
+button {
+	margin: 5px 20px;
+	padding: 20px 10px;
+	width: 100%;
+	background-color: #00b242;
+	color: white;
+	border: none;
+}
+
+span {
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #00b242;
+}
+
+p {
+	color: #6d6d6c;
+	text-align: center;
+}
+
+img {
+	width: 50%;
+}
